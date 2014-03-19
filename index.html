@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>The Caroline A. Henderson Digital Collection -- MHC Digital Collections</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/DC_ms0547.css">
+    <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/favicon.png">-->
+  
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<div id="banner">
+				<span>
+					The Caroline A. Henderson
+				
+					Digital Collection
+				</span>
+			</div>
+		</div>
+	</div>
+<div id="mncourse">
+	<div class="row-fluid">
+		<div class="span12">
+			<blockquote style="padding-top:15px;">
+				<p>
+				We are both near enough to pagans to have a good deal of that instinctive love for the earth, I think that has had much to do with our continuing the long struggle here. 
+				</p> <small>Caroline Henderson to Rose Alden, December 1932 <cite></cite></small>
+			</blockquote>
+		</div>
+	</div>
+	<div id="linkbox">
+	<div class="row-fluid">
+			<div class="row-fluid" style="width:88%; margin:auto;">
+			<div class="span12 box">
+			<div id="topframe">
+			    		<div id="toptext">
+						</div>
+			</div>
+			</div>
+			</div>
+<div class="row-fluid">
+	<div class="span6 box">
+			<h2>About The Collection</h2>
+					<div>
+					<span>Caroline Henderson's papers consist of letters, articles, and biographical information, as well as many letters written by her daughter, Eleanor. These correspondence primarily document the daily activities and difficulties of the Henderson family and life in the Oklahoma panhandle, including the trials of the Dust Bowl.
+					<span class="return"><i class="icon-asterisk"></i><a id='expC'>View Biographical Note</a></span>
+					</span>
+					</div>
+		</div>
+	<div class="span6 box">
+			<h2>
+				Explore The Collection
+			</h2>
+			<span><i class="icon-share-alt"></i><a href="http://mtholyoke.contentdm.oclc.org/cdm/search/collection/p1030coll8/searchterm/from%20caroline%20henderson/field/title/mode/exact/conn/and/order/identa">View Correspondence Written By Caroline Henderson</a></span>
+			<span><i class="icon-asterisk"></i><a id='expB'>Browse Correspondence from Dust Bowl Years</a></span>
+			<span><i class="icon-asterisk"></i><a id='expA'>All Correspondence By Year</a></span>
+			<p>
+				<a class="btn btn-primary btn-large" href="http://mtholyoke.contentdm.oclc.org/cdm/search/collection/p1030coll8/searchterm/ms0547/order/identa">View Entire Collection »</a>
+			</p>
+	</div>
+	</div>
+	</div>
+	</div>
+</div>
+	<div class="row-fluid">
+		<div class="span12">
+			<ul class="nav nav-list">
+				<li class="nav-header">
+					Related Material
+				</li>
+				<li>
+					<a href="http://fcaw.library.umass.edu/F/?func=direct&doc_number=001318817&local_base=FCL01mhc"><em>Letters from the Dust Bowl,</em> by Caroline Henderson</a>
+				</li>
+				<li>
+					<a href="http://fcaw.library.umass.edu/F/?func=direct&doc_number=012402749&doc_library=FCL01"><em>The Dust Bowl: an illustrated history,</em> by Dayton Duncan</a>
+				</li>
+				<li>
+					<a href="http://www.pbs.org/kenburns/dustbowl/"><em>The Dust Bowl,</em> A Ken Burns Film</a>
+				</li>
+				<li>
+					<a href="http://www.loc.gov/pictures/collection/fsa/">The Library of Congress Prints &amp; Photographs Online Catalog - FSA/OWI Black-and-White Negatives</a>
+				</li>
+				<li>
+					<a href="http://www.library.okstate.edu/oralhistory/dustbowl/">Dust, Drought, and Dreams Gone Dry: Oklahoma Women in the Dust Bowl Oral History Project</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<script>
+$(document).ready(function(){
+    $("#toptext").load('magicbox.html #intro');
+});
+
+$('#expA').click(function(){
+	$('#toptext').fadeOut('slow', function(){
+	    $('#toptext').load('magicbox.html #corrDec', function(){
+	        $('#toptext').fadeIn('slow', function(){
+	        	$('html, body').animate({
+					scrollTop: $("#toptext").offset().top
+				}, 1000);
+	        });
+	    });
+	});
+});
+
+$('#expB').click(function(){
+	$('#toptext').fadeOut('slow', function(){
+	    $('#toptext').load('magicbox.html #corrDust', function(){
+	        $('#toptext').fadeIn('slow', function(){
+	        	$('html, body').animate({
+					scrollTop: $("#toptext").offset().top
+				}, 1000);
+	        });
+	    });
+	});
+});
+
+$('#expC').click(function(){
+	$('#toptext').fadeOut('slow', function(){
+	    $('#toptext').load('magicbox.html #bioNote', function(){
+	        $('#toptext').fadeIn('slow', function(){
+	        	$('html, body').animate({
+					scrollTop: $("#toptext").offset().top
+				}, 1000);
+	        });
+	    });
+	});
+});
+$('#intBack').live("click", function(){
+    $('#toptext').fadeOut('slow', function(){
+	    $('#toptext').load('magicbox.html #intro', function(){
+	        $('#toptext').fadeIn('slow');
+	    });
+	});
+});
+</script>
+
+<script>
+		$(document).ready(function() {
+		  $('.nav-toggle').click(function(e){
+		  	e.preventDefault();
+			//get collapse content selector
+			var collapse_content_selector = $(this).attr('href');					
+ 
+			//make the collapse content to be shown or hide
+			var toggle_switch = $(this);
+			$(collapse_content_selector).toggle(function(){
+			  if($(this).css('display')=='none'){
+                                //change the button label to be 'Show'
+				toggle_switch.html('<a>... Show More</a>');
+			  }else{
+                                //change the button label to be 'Hide'
+				toggle_switch.html('<a class="bottom">Show Less</a>');
+			  }
+			});
+		  });
+		});
+</script>
+
+<script>
+    var _gaq=[['_setAccount','UA-36473043-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+</body>
+</html>
